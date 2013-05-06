@@ -1,4 +1,4 @@
-<form action="publicar/save" method="post">
+<form action="publicar/save" method="post" enctype="multipart/form-data">
 	titulo
 	<input type="text" name="titulo"><br>
 	descripcion
@@ -40,7 +40,7 @@
 	</select><br>
 	<input type="file" name="pic1" accept="image/*"/><br>
 	<input type="file" name="pic2" accept="image/*"/><br>
-	<input type="file" name="pic3" accept="image/*"/>
+	<input type="file" name="pic3" accept="image/*"/><br>
 	Direccion:
 	<input type="text" name="titulo"><br>
 	Superficie:

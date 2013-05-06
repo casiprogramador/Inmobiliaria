@@ -1,6 +1,6 @@
 <?php
 
-	define('URL', 'http://localhost/BuscoCasa/');
+	define('URL', 'http://localhost/DondeVivo/');
 
 
  ?>
