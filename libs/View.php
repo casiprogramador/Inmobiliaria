@@ -18,6 +18,12 @@ class View
 		}
 
 	}
+
+	public function call($name){
+			require 'views/header.php';
+			require "views/".$name.".php";
+			require 'views/footer.php';
+	}
 }
 
  ?>

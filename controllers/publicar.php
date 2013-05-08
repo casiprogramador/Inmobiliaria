@@ -27,7 +27,7 @@ class Publicar extends Controller{
 		//print_r($imagen);
 		move_uploaded_file($_FILES['pic1']['tmp_name'],$ruta.$_FILES['pic1']['name']);
 
-
+		$this->model->save();
 
 	}
 
